@@ -28,6 +28,7 @@ class Libro {
     }
 
 
+
     public function esAntiguo() {
         $anioActual = date("Y");
         if(($anioActual - $this->anio)>20){
